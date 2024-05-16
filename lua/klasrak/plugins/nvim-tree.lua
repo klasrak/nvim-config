@@ -11,9 +11,8 @@ return {
     nvimtree.setup({
       view = {
         width = 35,
-        relativenumber = true
+        relativenumber = true,
       },
-
       -- change folder arrow icons
       renderer = {
         indent_markers = {
@@ -28,8 +27,7 @@ return {
           },
         },
       },
-
-      -- disable window picker for
+      -- disable window_picker for
       -- explorer to work well with
       -- window splits
       actions = {
@@ -37,13 +35,11 @@ return {
           window_picker = {
             enable = false,
           },
-        }, 
+        },
       },
-
       filters = {
         custom = { ".DS_Store" },
       },
-
       git = {
         ignore = false,
       },
