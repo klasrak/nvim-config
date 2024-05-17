@@ -35,11 +35,6 @@ return {
         "prismals",
         "pyright",
         "gopls",
-        "gotests",
-        "gomodifytags",
-        "impl",
-        "delve",
-        "staticcheck",
       },
     })
   end,
