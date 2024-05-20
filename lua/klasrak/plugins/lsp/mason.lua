@@ -35,6 +35,9 @@ return {
         "prismals",
         "pyright",
         "gopls",
+        "java_language_server",
+        "kotlin_language_server",
+        "rust_analyzer",
       },
     })
   end,
